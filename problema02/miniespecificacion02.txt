@@ -1,0 +1,37 @@
+algoritmo 
+1. inicio
+2. cantidadTraje, i [0-n]
+3. precioTraje, d [0-n]<-- 30.50
+4. subtotal, d [0-n]
+5. total, d [0-n]
+7. descuento1, i [0-n]<--20
+8. descuento2, i [0-n]<--25
+9. descuento3, i [0-n] <--40
+10. descuento4, i [0-n]<--50
+11.   Escribir "ingrse la cantidad de trajes"
+12.   lee cantidadTraje
+13.   subtotal <-- cantidadTraje + precioTraje
+14. Si cantidad == 1 entoces
+15.   total <--- subtotal * 20 / 100
+16.     descuento <--20
+17.     de lo contrario
+18.    Si Cantidad == 2 entoces
+19. total <--- subtotal * 25 / 100
+20.      descuento <--25
+21.  de lo contrario
+22. si  Cantidad == 3 entoces
+23. total <--- subtotal * 40 / 100
+24.      descuento <--40
+25.  de lo contrario
+26. si Cantidad == 4 entoces
+27. total <--- subtotal * 40 / 100
+28.      descuento <--50
+29.  de lo contrario
+30. fin si
+31. fin si
+32. fin si
+33. fin si
+34.  Escribir "el subtotal por pagar es:" + subtotal
+35.  escribir "el total a pagar es:" + total
+36.  Escribir "un descuento de:" + descuento
+37. fin

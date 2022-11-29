@@ -1,0 +1,46 @@
+miniespecificacion
+PROBLEMA 03:
+Elaborar un algoritmo que permita leer los datos de un empleado (nombre, tipo de empleado, número de horas trabajadas
+ y cuota que se le paga por hora) y calcule e imprima el sueldo por pagar. Si el empleado es tipo 1 se le pagan las
+ horas extras (más de 40 horas) a 1.5 de la cuota por hora, si es tipo 2, a 2, si es tipo 3, a 2.5, y si es tipo 4, a 3 
+veces la cuota por hora.
+
+1. inicio 
+2. nombre, x(15)[{a-z},{A-Z},{BS}]
+3. tipoEmpleado, i [0-n]
+4. numeroHora, i [0-n]
+5. horaextras, i[0-n]
+6. pagoExtra, d[0-M]
+7. cuotapago, d [0-n]
+8. sueldoPagar, d[0-0n]
+9.  Escribir "ingrese el nombre porfavor"
+10.  leer nombre
+11. Escribir "que tipo de espleado (1 - 2 o 3)"
+12.  leer tipoEmpleado
+13. Escribir "ingrese el numero de horas:"
+14.  leer numeroHora
+15. Escribir "ingrese la cuota que se le paga por hora:"
+16.  leer cuotapago
+17. Escribir "ingrse las horas extras trabajadas:"
+18.   leer horaextras
+19.  sueldoPagar <-- numeroHora * cuotaPago
+20.   Si tipoempleado == 1 entoces 
+21.     pagoExtra <-- horaextras * 1.5
+22.     sueldoPagar <-- suelgoPagar + pagoExtra
+23.   De lo contrario
+24.   Si tipoempleado == 2 entoces 
+25.     pagoExtra <-- horaextras * 2
+26.     sueldoPagar <-- suelgoPagar + pagoExtra
+27,   De lo contrario
+28.   Si  tipoempleado == 3 entoces
+29.     pagoExtra <-- horaextras * 2.5
+30.     sueldoPagar <-- suelgoPagar + pagoExtra
+31.   De lo contrario
+31.   Si tipoempleado == 4 entoces 
+32.     pagoExtra <-- horaextras * 3
+33.     sueldoPagar <-- suelgoPagar + pagoExtra
+34. fin si
+35.  fin si
+36.   fin si
+37. Escribir " el sueldo a pagar es de:" + sueldoPagar
+38. fin
