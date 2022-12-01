@@ -1,0 +1,43 @@
+PROBLEMA 09
+Utilizando una estructura repetitiva diseñe un algoritmo para calcular e imprimir los k primeros términos de la serie:
+
+S1 = 12−11+24−22+36−33+48−44
+
+1. inicio
+2. contador, i[0-n]<--1
+3. numero, i[0-n]<--(-11)
+4. numerodos, i[0-n]<--24
+5. suma,i[0-n]<--0
+6. cadena, x (50)[{0-n}]<-- ""
+7. mientras contador <= 3 entoces
+8.   cadena<-- cadena + numero + "+" + numerodos
+9. suma <-- suma + numero; 
+10.   suma <-- suma + numerodos;
+11.  numero<-- numero -11
+12.  numerodos<-- numerodos + 12
+13.  contador <-- contador + 1 
+14. fin mientras 
+15. suma <-- suma + 12 - 44
+16.  escribir "S1=" + "12" + cadena + "-44""
+17.   escribir "la suma de la cadenas es:" + suma
+18. fin 
+
+
+//
+1. inicio
+2. contador, i[0-n]<--1
+3. numero, i[0-n]<--12
+4. numero2, i[0-n]<--(-11)
+5. suma,i[0-n]<--0
+6. cadena, x (50)[{0-n}]<-- ""
+7. mientras contador <= 4 entoces
+8.   cadena<-- cadena + "+' + numero + numero2
+9.   suma <-- suma + numero; 
+10.   suma <-- suma + numerodos;
+11.  numero<-- numero + 12
+12.  numero2<-- numero2 - 11
+13.  contador <-- contador + 1 
+14. fin mientras 
+15.  escribir " S1 =" + cadena 
+16.   escribir "la suma de la cadena:" + suma
+17. fin 

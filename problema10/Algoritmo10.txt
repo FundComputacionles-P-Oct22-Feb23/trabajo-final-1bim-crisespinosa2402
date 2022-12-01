@@ -1,0 +1,19 @@
+algoritmo10:
+//Realice un algoritmo que lea un número de datos y calcule la media y
+// la varianza de los mismos. El usuario decide cuando no ingresar más números.
+
+1. Inicio 
+3. creamos varible para poder guardar los datos 
+4. realizamos lo siguiente dentro de un condicional repititivo
+5. si el ciclo repetitivo es verdadero 
+5.se pide que ingrese un numero de datos
+6. a este dato lo sumamos con valor cero mas el primer dato 
+7. guardamos en un acumulador para no perder la informacion
+8. creamos una variable contador le sumamos para poder las veces que repiten y no crear un buqle
+9. luego preguntarle al usuario si desea continuar o no
+10. si desea cuntinuar el usuario sigue en el ciclo
+11. realizamos los calculo q se pide donde media es igual acumulador sobre contador 
+12. si el usuario no desea cuntinuar sale del ciclo y termina
+13. se cierra el ciclo para poder presentar lo pedido 
+14. presentamos el valor de la media
+15. fin

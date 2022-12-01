@@ -1,0 +1,13 @@
+algoritmo04
+//Elaborar un algoritmo que permita leer 3 números e imprima el mayor.
+// Debe validar que sean diferentes, es decir, si hay números iguales debe enviar un mensaje de error.{
+
+1. Inicio
+2. perdir al usuario que ingrese tres numero 
+3. guardarlos en  variables
+4. validar si se repiten estos numero ingresados
+5. si al ver que se repiten estos numero debemos dar un mensaje al usuario de error
+6. si no se repiten estos numeros ingresado
+7. ver de cuales de estos es el mayor haciendo una comparacion y ver cual es el mayor
+8. al compararlos tendremos el valor a presetar en pantalla al usuario
+9. fin

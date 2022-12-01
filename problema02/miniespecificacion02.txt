@@ -1,5 +1,11 @@
-algoritmo 
+Problema02:
+//En un almacén de venta de trajes, si se compra uno se hace el 20% de descuento, si se compran 2, el 25%, 
+//si se compran 3, el 40%, y si compra más de 3, el 50%. Elaborar un algoritmo que lea la cantidad de trajes 
+//y el precio unitario (todos tienen el mismo precio) e imprima el subtotal por pagar, el descuento y el total por pagar.
+
+
 1. inicio
+
 2. cantidadTraje, i [0-n]
 3. precioTraje, d [0-n]<-- 30.50
 4. subtotal, d [0-n]

@@ -1,0 +1,24 @@
+Miniespecificación:
+
+1.  Inicio
+2.  contador, i[0-n] <-- 0
+3.  metro, i[1-n] <-- 0
+4.  yardas, d[0-n]
+5.  pulgadas, d[0-n]
+6.  pies, d[o-n]
+7.  equivalenciaMetro, d[0-n] <-- 2.54
+8.  equivalenicaPie, d[0-n] <-- 12
+9.  equivalenciaYarda, d[0-n] <-- 3
+10. serie, x(500)[{A-Z}{BS}{a-z}] <-- ""
+11. Haga_Hasta
+12.   metro <-- metro + 1
+13.   yardas <-- (((100 * metro) / equivalenciaMetro) / equivalenciaPulgadas) / equivalenciaYarda 
+14.   pulgadas <-- (100 * metro) / equivalenciaMetro
+15.   pies <-- ((100 * metro) / equivalenciaMetro) / equivalenciaPulgadas
+16.   serie= serie + "Metros" + "\t" + "Yardas" + "\t" + "Pulgadas" + "\t" + "Pies" + "\n" + metro + "\t" + yardas + 
+17.   "\t" + pulgadas + "\t" + pies
+18.   contador <-- contador + 1
+19. Fin Haga_Hasta(contador <= metros)
+20. <<serie
+21. Fin
+

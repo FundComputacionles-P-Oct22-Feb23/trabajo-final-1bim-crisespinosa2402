@@ -1,0 +1,30 @@
+Miniespecificación:
+
+1.  Inicio
+2.  primerDigito, i[0-n]
+2.  segundoDigito, i[0-n]
+3.  tercerDigito, i[0-n]
+4.  nulo, i[0-n] <-- 0
+5.  <<"Ingrese el primer número"
+6.  >>primerDigito
+7.  <<"Ingrese el segundo numero por favor"
+8.  >>segundoDigito
+9.  <<"Ingrese el tercer número por favor"
+10.  >>tercerDigito 
+10. Si primerDigito > segundoDigito and primerDigito > tercerDigito entonces
+11.  digitoMayor <-- primerDigito + nulo
+13. De lo contrario
+14.   Si segundoDigito > primerDigito and segundoDigito > tercerDigito entonces
+15.    digitoMayor <-- segundoDigito + nulo
+16.   De lo contrario
+17.    digitoMayor <-- tercerDigito + nulo
+18.   Fin Si
+19. Fin Si
+20. Si primerDigito ¡= segundoDigito or tercerDigito ¡= primerDigito and tercerDigito ¡= segundoDigito entonces
+21.  <<digitoMayor
+22. De lo contrario
+23.  <<"Error"
+24. Fin Si
+25.Fin
+
+

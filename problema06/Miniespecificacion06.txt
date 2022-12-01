@@ -1,0 +1,16 @@
+problema 6:
+Elaborar un algoritmo que calcule e imprima la suma 1 + 1/2 + 1/3 + 1/4 ... + 1/100. Ejercicio tomado de: López Román, Leobardo.
+ (2013) Metodología programación orientada a objetos. México
+
+1. inicio
+2. numero, i[0-n]<--1 
+3. numero2,i[0-n]<-- 2
+4. contador,i[0-n]<--1
+5. resultado,i[0-n]<--1
+5.  mientras contador <=100 entoces
+6.  resultado <--resultado + numero / numero2  
+8.  contador <-- contador + 1
+9.  numero2 <-- numero2 + 1
+10. fin mientras
+11. escribir "la suma total es:" + resultado 
+12. fin

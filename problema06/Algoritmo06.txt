@@ -1,0 +1,16 @@
+algoritmo 06
+//Elaborar un algoritmo que calcule e imprima la suma 1 + 1/2 + 1/3 + 1/4 ... + 1/100. 
+
+1. Inicio
+2. creamos una vaariable para darle valor de 1
+3. creamos otra variable para darle valor de 2 
+5. creamos una varible de nombre resultado con valor de 1
+6. creamos una variable de nombre contador con valor 1
+7. hacemos en un ciclo repetitivo 
+5. si el contador es <=100 el resultado va ser igual a resultado mas valir 1 dividimos par valor 2
+7. a contador le sumamos 1
+8. al valor de 2 le sumamos 1
+9. todo esto lo hacemos en un ciclo repetitivo 
+10. cerramos el ciclo
+11. prentamos en pantalla el valor de la suma
+12.FIN

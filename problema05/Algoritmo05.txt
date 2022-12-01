@@ -1,0 +1,16 @@
+algoritmo
+PROBLEMA05:
+
+//Dados dos puntos X y Y , que son las coordenadas del plano cartesiano,
+// haga un algoritmo para clasificar el cuadrante del plano donde está ubicada la coordenada (X, Y ).
+
+1. Inico
+2. pedimos que ingrese el primer valor
+3. pedimos que ingrese el segundo valor 
+4. si el primer valor es mayor a cero 
+5. presentamos que el valor ingresado es positivio del eje x
+6. sino lo es presentamos como el valor ingresado es negativo del eje x
+7. si el segundo valor es mayor a cere 
+9. presentamos que el valor ingresado es positivio del eje y
+10. sino lo es presentamos como el valor ingresado es negativo del eje y
+11. fin
